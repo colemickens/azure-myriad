@@ -46,7 +46,7 @@ or for even more detail add –debug to your command.
 
 ###	Scaling out or scaling in
 
-New-AzureResourceGroupDeployment -name dep2 -vmSSName myvmss -instanceCount 2 -ResourceGroupName myrg –TemplateUri https://github.com/gbowerman/azure-myriad/blob/master/vmss-scale-in-or-out.json 
+New-AzureResourceGroupDeployment -name dep2 -vmSSName myvmss -instanceCount 2 -ResourceGroupName myrg –TemplateUri https://raw.githubusercontent.com/gbowerman/azure-myriad/master/vmss-scale-in-or-out.json
 
 ###	Remove a Scale Set
 
